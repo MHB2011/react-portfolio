@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../layout/Navbar";
 import Typewriter from "typewriter-effect";
+import { Link } from "react-router-dom";
 
 import Fade from "react-reveal/Fade";
 
@@ -38,9 +39,9 @@ const HeaderHome = () => {
               </strong>
             </p>
           </Fade>
-          <a href="work.html" className="btn-light">
+          <Link to="/work" className="btn-light">
             View My Work
-          </a>
+          </Link>
         </div>
       </div>
     </header>
