@@ -16,6 +16,7 @@ const ContactA = () => {
           data-netlify-recaptcha="true"
         >
           <div class="text-fields">
+            <input type="hidden" name="form-name" value="contact" />
             <input
               type="text"
               class="text-input name-input"
