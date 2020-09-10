@@ -9,7 +9,12 @@ const ContactA = () => {
         <p class="lead">
           You can reach me here or DM me on my twitter account.
         </p>
-        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+        <form
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-recaptcha="true"
+        >
           <div class="text-fields">
             <input
               type="text"
