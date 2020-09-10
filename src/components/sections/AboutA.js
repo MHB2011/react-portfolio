@@ -1,5 +1,6 @@
 import React from "react";
 import bioImage from "../../img/about.jpg";
+import Zoom from "react-reveal/Zoom";
 
 const AboutA = () => {
   return (
@@ -11,7 +12,9 @@ const AboutA = () => {
           Let me tell you a little about myself and what I do...
         </p>
         <div className="about-info">
-          <img src={bioImage} alt="about me" className="bio-image" />
+          <Zoom left fraction={0.9}>
+            <img src={bioImage} alt="about me" className="bio-image" />
+          </Zoom>
           <div className="bio bg-light">
             <h4>Your Project Is In safe Hands</h4>
             <p>

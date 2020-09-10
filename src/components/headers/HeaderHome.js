@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../layout/Navbar";
 import Typewriter from "typewriter-effect";
 
+import Fade from "react-reveal/Fade";
+
 const HeaderHome = () => {
   return (
     <header id="header-home">
@@ -29,11 +31,13 @@ const HeaderHome = () => {
               }}
             />
           </h1>
-          <p className="lead text-bold">
-            <strong>
-              I specialize in building custom websites and web tools.
-            </strong>
-          </p>
+          <Fade bottom delay={2000}>
+            <p className="lead text-bold">
+              <strong>
+                I specialize in building custom websites and web tools.
+              </strong>
+            </p>
+          </Fade>
           <a href="work.html" className="btn-light">
             View My Work
           </a>
