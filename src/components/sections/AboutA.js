@@ -57,7 +57,7 @@ const AboutA = () => {
             <h3>React Award</h3>
             <p>
               Course completion{" "}
-              <a href="#">
+              <a href="/">
                 <strong> certificate </strong>
               </a>{" "}
               for "React front to back"

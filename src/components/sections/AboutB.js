@@ -18,6 +18,7 @@ const AboutB = () => {
         <div className="progress">
           <div style={{ width: "80%" }}></div>
         </div>
+        {/* eslint-disable-next-line */}
         <h4>Javascript:</h4>
         <div className="progress">
           <div style={{ width: "98%" }}></div>

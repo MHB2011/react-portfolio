@@ -20,7 +20,11 @@ const WorkA = () => {
             <div className="item-text">
               <div className="item-text-wrap">
                 <p className="item-text-category">Landing Page</p>
-                <a href="http://valgradnja.hr" target="_blank">
+                <a
+                  href="http://valgradnja.hr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <h2 className="item-text-title">V.A.L Gradnja</h2>
                 </a>
               </div>
