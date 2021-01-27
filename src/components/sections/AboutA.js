@@ -1,5 +1,5 @@
 import React from "react";
-import bioImage from "../../img/about.jpg";
+import bioImage from "../../img/about2.jpg";
 import Zoom from "react-reveal/Zoom";
 
 const AboutA = () => {
@@ -24,10 +24,12 @@ const AboutA = () => {
               programming. Over the years i learnad a lot mostly building
               websites and scripts for my personal use. I have succesffuly
               turned my passion into business and have been earning enough for
-              my perosanl needs. Now i want to expand my bussiness by helping
-              other people get beautiful, functional and most most importantly
-              secure websites. I am using modern programming languages such as
-              Javascript ES6, HTML 5 , CSS 3, Bootstrap , React, Node.JS,
+              my personal needs. In 2020. I started working in an IT company in
+              my country as a react native mobile app developer.I want to
+              continue doing what i love and help people get beautiful,
+              functional and most most importantly secure websites. I am using
+              modern programming languages such as Javascript ES6, Typescript,
+              HTML 5 , CSS 3, Bootstrap , React,React Native, Node.JS,
               Express.JS, MongoDB and many other. Feel free to contact me at any
               time and i will get back to you as soon as possible.
             </p>

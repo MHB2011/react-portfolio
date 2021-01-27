@@ -12,17 +12,26 @@ const AboutB = () => {
         </div>
         <h4>Frontend:</h4>
         <div className="progress">
-          <div style={{ width: "85%" }}></div>
-        </div>
-        <h4>PHP:</h4>
-        <div className="progress">
-          <div style={{ width: "80%" }}></div>
+          <div style={{ width: "98%" }}></div>
         </div>
         {/* eslint-disable-next-line */}
         <h4>Javascript:</h4>
         <div className="progress">
           <div style={{ width: "98%" }}></div>
         </div>
+        <h4>Typescript:</h4>
+        <div className="progress">
+          <div style={{ width: "90%" }}></div>
+        </div>
+        <h4>React.js / React native:</h4>
+        <div className="progress">
+          <div style={{ width: "100%" }}></div>
+        </div>
+        <h4>PHP:</h4>
+        <div className="progress">
+          <div style={{ width: "80%" }}></div>
+        </div>
+
         <h4>Express.JS:</h4>
         <div className="progress">
           <div style={{ width: "90%" }}></div>
@@ -30,10 +39,6 @@ const AboutB = () => {
         <h4>HTML & CSS:</h4>
         <div className="progress">
           <div style={{ width: "100%" }}></div>
-        </div>
-        <h4>React.js:</h4>
-        <div className="progress">
-          <div style={{ width: "85%" }}></div>
         </div>
       </div>
     </section>
